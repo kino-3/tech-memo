@@ -25,3 +25,11 @@ GitHub の README や issue で TeX の数式を使用する方法。
 ```
 
 - VSCode の拡張機能である [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/ja-jp/math) では, 上記の方法でレンダリングされる。
+
+## 追記
+
+`MathJax` 等のライブラリを使用することで, 以下のように `GitHub Pages` で数式を使用することができる。詳細は <https://github.com/kino-3/github-pages-template> を参照。
+
+$$
+{e}^{i\pi}=-1
+$$
