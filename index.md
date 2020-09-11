@@ -1,6 +1,4 @@
-# サンプルページ
-
-## ページ一覧
+# ページ一覧
 
 - git
   - [GitHub で数式を使用する方法](./git/mathematical_expression)
