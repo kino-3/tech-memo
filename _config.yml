@@ -1,0 +1,5 @@
+theme: jekyll-theme-dinky
+lang: ja-JP
+title: 技術メモ
+plugins:
+  - jekyll-sitemap
