@@ -7,3 +7,5 @@
   - [markdownlint](./lint/markdownlint)
 - python
   - [pylance](./python/pylance)
+- machine-learning
+  - [Kullback-Leibler divergence の非負性](./machine-learning/KL-divergence)
