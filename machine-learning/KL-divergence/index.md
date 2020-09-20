@@ -1,6 +1,6 @@
 # Kullback-Leibler divergence の非負性
 
-## 定義
+## カルバック・ライブラー情報量の定義
 
 確率密度関数 $ p(x), q(x) $ について, 次のように定義される。
 
@@ -46,7 +46,7 @@ $$
 \end{aligned}
 $$
 
-## $ p(x), q(x) $ によらず $ {\rm KL}(p\parallel q) $ となることの証明
+## $ p(x), q(x) $ によらず $ {\rm KL}(p\parallel q) \geq 0 $ となることの証明
 
 補題より, $ \alpha_i = p(x_i)\Delta x $ として, 区分求積法の考え方を適用すると,
 
@@ -54,7 +54,7 @@ $$
 f\left(\int p(x)g(x)dx\right)\geq \int p(x)f(g(x))dx
 $$
 
-となる。ここで, $ f(x) = \ln(x), g(x) = \frac{q(x)}{p(x)} $ の場合を考えると, 以下のように示される。
+となる。ここで, $ f(x) = \ln{x}, g(x) = \frac{q(x)}{p(x)} $ の場合を考えると, 以下のように示される。
 
 $$
 \begin{aligned}
@@ -65,4 +65,4 @@ $$
 \end{aligned}
 $$
 
-等号が成立するのは, 補題の $ (*) $ より, $ g(x) = const $ となる場合である。これは, $ g(x) = \frac{q(x)}{p(x)} $ と $ \int p(x)dx = \int q(x)dx = 1 $ より, $ g(x) = 1 $ のとき, すなわち $ p(x) = q(x) $ のときである。
+等号が成立するのは, 補題の $ (*) $ より $ g(x) = const $ となる場合である。これは, $ g(x) = \frac{q(x)}{p(x)} $ と $ \int p(x)dx = \int q(x)dx = 1 $ より, $ g(x) = 1 $ のとき, すなわち $ p(x) = q(x) $ のときである。
