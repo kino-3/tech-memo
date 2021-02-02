@@ -14,8 +14,8 @@ cat hoge.txt | tr '\r\n' ' ' | sed 's/([^)]*)/()/g' | sed 's/\. /\.\r\n/g' > fug
 
 以下の記事を参考にした。
 
-- https://qiita.com/kimisyo/items/916f58ac6571815851ff
-- https://qiita.com/tanabee/items/c79c5c28ba0537112922
+- [https://qiita.com/kimisyo/items/916f58ac6571815851ff](https://qiita.com/kimisyo/items/916f58ac6571815851ff)
+- [https://qiita.com/tanabee/items/c79c5c28ba0537112922](https://qiita.com/tanabee/items/c79c5c28ba0537112922)
 
 1. ツールのダウンロード
 
@@ -30,10 +30,10 @@ cat hoge.txt | tr '\r\n' ' ' | sed 's/([^)]*)/()/g' | sed 's/\. /\.\r\n/g' > fug
 
 1. Google Apps Script の作成
 
-[Google Apps Script](https://script.google.com/home) にアクセスして, 「APPS SCRIPT を作成」し, 下のコードを保存する。
-その後, デプロイ > 新しいデプロイ > (種類の選択)ウェブアプリ > 完了 > URL をコピー の手順を行う。
+    [Google Apps Script](https://script.google.com/home) にアクセスし, 「新しいプロジェクト」に, 下のコードを保存する。
+    その後, デプロイ > 新しいデプロイ > (種類の選択)ウェブアプリ > 完了 > URL をコピー の手順を行う。
 
-    ```gs
+    ```
     function doGet(e) {
         var p = e.parameter;
         var translatedText = LanguageApp.translate(p.text, p.source, p.target);
@@ -43,10 +43,11 @@ cat hoge.txt | tr '\r\n' ' ' | sed 's/([^)]*)/()/g' | sed 's/\. /\.\r\n/g' > fug
 
 1. URL の登録
 
-`cfg.py` の `api` のリストに URL を文字列として追加する。
+    `cfg.py` の `api` のリストに URL を文字列として追加する。
 
 1. 実行
 
-```sh
-python pdf2text.py hoge.pdf
-```
+    ```sh
+    # python pdf2text.py --help
+    python pdf2text.py hoge.pdf
+    ```
