@@ -7,6 +7,7 @@
   - [markdownlint](./lint/markdownlint)
 - python
   - [pylance](./python/pylance)
+  - [Jupyter notebook で anaconda の仮想環境を使用する方法](./python/jupyter_conda)
 - machine-learning
   - [Kullback-Leibler divergence の非負性](./machine-learning/KL-divergence)
 - fortran
