@@ -10,12 +10,14 @@
 cat hoge.txt | tr '\r\n' ' ' | sed 's/([^)]*)/()/g' | sed 's/\. /\.\r\n/g' > fuga.txt
 ```
 
-## pdf の英語論文翻訳翻訳ツール
+## pdf の英語論文翻訳ツール
 
 以下の記事を参考にした。
 
 - [https://qiita.com/kimisyo/items/916f58ac6571815851ff](https://qiita.com/kimisyo/items/916f58ac6571815851ff)
 - [https://qiita.com/tanabee/items/c79c5c28ba0537112922](https://qiita.com/tanabee/items/c79c5c28ba0537112922)
+
+導入手順は以下のとおり。
 
 1. ツールのダウンロード
 
@@ -30,7 +32,7 @@ cat hoge.txt | tr '\r\n' ' ' | sed 's/([^)]*)/()/g' | sed 's/\. /\.\r\n/g' > fug
 
 1. Google Apps Script の作成
 
-    [Google Apps Script](https://script.google.com/home) にアクセスし, 「新しいプロジェクト」に, 下のコードを保存する。
+    [Google Apps Script](https://script.google.com/home) にアクセスして, 「新しいプロジェクト」に, 下のコードを保存する。  
     その後, デプロイ > 新しいデプロイ > (種類の選択)ウェブアプリ > 完了 > URL をコピー の手順を行う。
 
     ```
