@@ -12,3 +12,5 @@
   - [Kullback-Leibler divergence の非負性](./machine-learning/KL-divergence)
 - fortran
   - [Fortran90 tutorial](./fortran/fortran90_tutorial)
+- utils
+  - [英語(論文)の日本語翻訳](./utils/eng2jpn)
