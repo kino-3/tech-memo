@@ -9,3 +9,5 @@
   - [pylance](./python/pylance)
 - machine-learning
   - [Kullback-Leibler divergence の非負性](./machine-learning/KL-divergence)
+- fortran
+  - [Fortran90 tutorial](./fortran/fortran90_tutorial)
