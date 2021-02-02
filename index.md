@@ -14,3 +14,4 @@
   - [Fortran90 tutorial](./fortran/fortran90_tutorial)
 - utils
   - [英語(論文)の日本語翻訳](./utils/eng2jpn)
+  - [PC のアクティブ状態を維持](./utils/pc_activator)
