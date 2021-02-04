@@ -17,3 +17,5 @@
   - [PC のアクティブ状態を維持](./utils/pc_activator)
 - Google Colaboratory
   - [ファイルのアップロード・ダウンロード](./colab/file)
+- web site
+  - [Google Search Console の設定方法](./website/google_search_console)
