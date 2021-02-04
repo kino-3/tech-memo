@@ -7,7 +7,8 @@
   - [markdownlint](./lint/markdownlint)
 - python
   - [pylance](./python/pylance)
-  - [Jupyter notebook で anaconda の仮想環境を使用する方法](./python/jupyter_conda)
+- Jupyter Notebook
+  - [Jupyter notebook で anaconda の仮想環境を使用する方法](./jupyter/conda)
 - fortran
   - [Fortran90 tutorial](./fortran/fortran90_tutorial)
 - utils
