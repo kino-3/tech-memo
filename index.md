@@ -9,6 +9,7 @@
   - [pylance](./python/pylance)
 - Jupyter Notebook
   - [Jupyter notebook で anaconda の仮想環境を使用する方法](./jupyter/conda)
+  - [Jupyter notebook で プログレスバーを使う](./jupyter/tqdm)
 - fortran
   - [Fortran90 tutorial](./fortran/fortran90_tutorial)
 - utils
