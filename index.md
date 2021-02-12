@@ -7,6 +7,7 @@
   - [markdownlint](./lint/markdownlint)
 - python
   - [pylance](./python/pylance)
+  - [Python コードの実行ファイル化(PyInstaller)](./python/pyinstaller)
 - Jupyter Notebook
   - [Jupyter notebook で anaconda の仮想環境を使用する方法](./jupyter/conda)
   - [Jupyter notebook で プログレスバーを使う](./jupyter/tqdm)
