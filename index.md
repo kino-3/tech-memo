@@ -8,6 +8,7 @@
 - python
   - [pylance](./python/pylance)
   - [Python コードの実行ファイル化(PyInstaller)](./python/pyinstaller)
+  - [Python から C++ を使う(pybind11)](./python/pybind11)
 - Jupyter Notebook
   - [Jupyter notebook で anaconda の仮想環境を使用する方法](./jupyter/conda)
   - [Jupyter notebook で プログレスバーを使う](./jupyter/tqdm)
